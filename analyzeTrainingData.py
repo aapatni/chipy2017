@@ -8,5 +8,7 @@ with open('training.csv') as csvfile:
     for row in reader:
         x.append([row[0],row[1],row[2],row[3],row[4]])
         y.append(row[5])
+print x
+print y
 clf = MLPClassifier(solver='lbfgs',alpha=1e-5,hidden_layer_sizes=(5,2),random_state=1) #solver could also equal 'adam', or 'sgd'
 print (clf.fit(x,y))
