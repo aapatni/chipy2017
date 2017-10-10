@@ -10,5 +10,7 @@ with open('training.csv') as csvfile:
         y.append(row[5])
 print x
 print y
-clf = MLPClassifier(solver='lbfgs',alpha=1e-5,hidden_layer_sizes=(5,2),random_state=1) #solver could also equal 'adam', or 'sgd'
+clf = MLPClassifier(solver='lbfgs',alpha=1e-5,hidden_layer_sizes=(5,1),random_state=1) #solver could also equal 'adam', or 'sgd'
+#try this maybe?
+#clf = MLPClassifier(hidden_layer_sizes=(13,13,13),max_iter=500)
 print (clf.fit(x,y))
