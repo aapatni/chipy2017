@@ -1,8 +1,9 @@
 import random,math
 import csv
 with open('training.csv', 'w', newline='') as csvfile:
-        spamwriter = csv.writer(csvfile, delimiter=' ',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for i in range(100):
+        spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        spamwriter.writerow(["X","Y","Width","Height","Distance","Direction"])
+        for i in range(1000):
                 try:
                         x = random.randint(150,350)
                         y = random.randint(100,200)
