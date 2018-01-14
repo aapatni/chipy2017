@@ -25,8 +25,13 @@ At the end of my mentorship I gave a brief talk to the Chicago Python Group. [Vi
 ```/Robot``` Contains an implementation of this that may work on our robot.
 
 ## Libraries used
+
 OpenGL - simulation
+
 OpenCV - to capture images from robot
+
 scikit-learn - train a neural network
+
 pygame - create window to display simulation
+
 numpy, pandas, csv, etc - data processing
