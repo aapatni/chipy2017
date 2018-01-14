@@ -14,12 +14,12 @@ To understand the purpose and execution of this project please refer to the foll
 At the end of my mentorship I gave a brief talk to the Chicago Python Group. [Video](https://www.youtube.com/watch?v=KMurhmSS6pg)
 
 ## File Content
-```/OpenGL/OpenGL Final.ipynb ``` Contains the simulation that writes data to a CSV database so we can train the Neural Network
+```/OpenGL/Simulation.ipynb ``` Contains the simulation that writes data to a CSV database so we can train the Neural Network. Basically puts a series of points that define the target in 3D space. It them simulates a robot moving around and converging upon this target.
 
-```/OpenGL/MachineLearningGL.ipynb ``` Loads the generated datasets and trains a Linear Regression and Neural Network. These are then saved to a file so they can be used later. 
+```/OpenGL/Train Neural Network.ipynb ``` Loads the generated datasets and trains a Neural Network. These are then saved to a file so they can be used later. 
 
-```/OpenGL/OpenGL Combined.ipynb ``` Combines the Simulation with the Neural Network and draws a best path to the target.
+```/OpenGL/Simulation and Prediction.ipynb ``` Combines the Simulation with the Neural Network and draws a best path to the target. The angle generated is the one in which the robot will travel.
 
 ```/Practice ML/``` Contains practice for the Machine Learning algorithms I've been working on.
 
-
+```/Robot/``` Contains an implementation of this that may work on our robot.
