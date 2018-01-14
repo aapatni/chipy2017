@@ -19,3 +19,5 @@ To understand the purpose and execution of this project please refer to the foll
 2. [Blog #2](https://medium.com/@adampatni27/chipy-mentorship-pt-2-d4a828446a9d)
 
 3. [Blog #3](https://medium.com/@adampatni27/chipy-mentorship-pt-3-6ae9a7335b06)
+
+At the end of my mentorship I gave a brief talk to the Chicago Python Group. [Video](https://www.youtube.com/watch?v=KMurhmSS6pg)
