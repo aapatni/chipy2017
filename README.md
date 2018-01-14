@@ -20,6 +20,6 @@ At the end of my mentorship I gave a brief talk to the Chicago Python Group. [Vi
 
 ```/OpenGL/Simulation and Prediction.ipynb ``` Combines the Simulation with the Neural Network and draws a best path to the target. The angle generated is the one in which the robot will travel.
 
-```/Practice ML/``` Contains practice for the Machine Learning algorithms I've been working on.
+```/Practice ML``` Contains practice for the Machine Learning algorithms I've been working on.
 
-```/Robot/``` Contains an implementation of this that may work on our robot.
+```/Robot``` Contains an implementation of this that may work on our robot.
